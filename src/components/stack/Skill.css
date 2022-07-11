@@ -1,0 +1,65 @@
+.skill__container {
+    height: 50vh;
+    background-color: #000;
+    display: flex;
+}
+
+.skill__background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #141c3a;
+    width: 60%;
+    margin: auto;
+    border-radius: 10px;
+    height: 8em;
+}
+
+.skill__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    font-size: 60px;
+}
+
+.fa-html5 {
+    color: #e54d26;
+}
+
+.fa-css3 {
+    color: #038fcb;
+}
+
+.fa-js {
+    color: #efd81d;
+}
+
+.fa-react {
+    color: #5ed3f3;
+}
+
+.fa-laravel {
+    color: #f72f22;
+}
+
+@media only screen and (max-width: 770px) {
+    .skill__background {
+        background-color: transparent;
+        width: 40%;
+    }
+
+    .fa-github {
+        color: white;
+    }
+
+    .skill__item {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 50px;
+    }
+
+    .skill__container {
+        height: 100vh;
+    }
+}

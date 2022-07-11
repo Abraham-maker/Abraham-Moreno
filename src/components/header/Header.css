@@ -1,0 +1,44 @@
+.container__header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    height: 80vh;
+    padding: 3rem 1.5rem;
+}
+
+.header__title {
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.header__paragraph {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
+}
+
+.header__avatar>img {
+    margin: 2rem 0;
+    width: 15%;
+    height: auto;
+}
+
+.header__logo>img {
+    max-width: 860px;
+}
+
+@media only screen and (max-width: 770px) {
+    .header__title {
+        font-size: 1.5rem !important;
+    }
+
+    .header__avatar>img {
+        margin: 2rem 0;
+        width: 150px;
+    }
+
+    .header__logo>img {
+        max-width: 100%;
+    }
+}
