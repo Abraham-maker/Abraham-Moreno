@@ -1,25 +1,42 @@
-.projects__container {
+.flex-container {
+    width: 85vw;
+    height: 70vh;
+    margin: auto;
     display: flex;
+    justify-content: center;
     align-items: center;
-    height: 40vh;
-    gap: 10em;
-    padding: 9em 3em;
+
 }
 
-.projects__items {
-    height: 90%;
-    width: 100%;
-    border-radius: 15px;
-    background-color: red;
+.flex-child {
+    width: 70vw;
+    height: 20vh;
+    margin: 1rem 2rem;
+    border-radius: 12px;
+    text-align: center;
 }
 
-@media only screen and (max-width: 770px) {
-    .projects__container {
+.website {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    background-color: #141c3a;
+    padding: .8rem;
+    border: 3px solid #7510F7;
+    color: white;
+    border-radius: 9999px;
+    transition: all .2s ease-in-out;
+
+}
+
+.website:hover {
+    background-color: #7510F7;
+    border-color: 2px solid #7510F7;
+}
+
+@media (min-width: 770px) {
+    .flex-container {
         display: flex;
-        gap: 2em;
         flex-wrap: wrap;
-        padding: 5em 2em;
+        font-size: 50px;
     }
-
-
 }
