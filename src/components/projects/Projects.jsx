@@ -4,7 +4,7 @@ import './Projects.css'
 const Projects = () => {
   return (
     <div className="flex-container">
-      <div className="flex-child">
+      <div className="flex-child image__1">
         <div class="media">
           <div class="overlay"></div>
           <div class="image-details">
@@ -13,7 +13,7 @@ const Projects = () => {
         </div>
 
       </div>
-      <div className="flex-child">
+      <div className="flex-child image__2">
         <div class="media">
           <div class="overlay"></div>
           <div class="image-details">
@@ -22,7 +22,7 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="flex-child">
+      <div className="flex-child image__3">
         <div class="media">
           <div class="overlay"></div>
           <div class="image-details">

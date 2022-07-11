@@ -23,6 +23,10 @@
     font-size: 60px;
 }
 
+/*
+    transform: translate(0, -10px);
+*/
+
 .fa-html5 {
     color: #e54d26;
 }
@@ -42,6 +46,18 @@
 .fa-laravel {
     color: #f72f22;
 }
+
+.fa-html5:hover,
+.fa-css3:hover,
+.fa-js:hover,
+.fa-react:hover,
+.fa-laravel:hover,
+.fa-github:hover {
+    cursor: pointer;
+    transform: translate(0, -10px);
+    transition: all .2s ease-in-out;
+}
+
 
 @media only screen and (max-width: 770px) {
     .skill__background {
