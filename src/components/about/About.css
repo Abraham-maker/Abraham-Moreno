@@ -1,3 +1,11 @@
+.about__me{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 800;
+    color: white;
+    font-size: 45px;
+    border-bottom: 4px solid white ;
+}
+
 .about__container {
     display: flex;
     flex-direction: column;
