@@ -8,7 +8,7 @@ const About = () => {
                 <h1>Hi, I’m Abraham. Nice to meet you.</h1>
             </div>
             <div className="about__paragraph">
-                <p>Since beginning my journey as a freelance designer nearly 10 years ago, I've done remote work for agencies, consulted for startups, and collaborated with talented people to create digital products for both business and consumer use. I'm quietly confident, naturally curious, and perpetually working on improving my chops one design problem at a time.</p>
+                <p>Front end Developer with +2 years of experience. Good design and best practices oriented using React.js I felt fascinated by development and I’m excited to get more experience in this field. My goal is to grow personally and professionally in an environment with high quality control, challenging and innovating. I’m looking for a position inside a growth startup that brings me the chance to improve all of my skills.</p>
             </div>
         </div>
     )
