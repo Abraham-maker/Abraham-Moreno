@@ -9,11 +9,11 @@
 }
 
 .flex-child {
-    width: 70vw;
-    height: 20vh;
+    box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #E6ECF8;
+    width: 80vw;
+    height: 25vh;
     margin: 1rem 2rem;
     border-radius: 12px;
-    text-align: center;
 }
 
 .website {
@@ -25,7 +25,7 @@
     color: white;
     border-radius: 9999px;
     transition: all .2s ease-in-out;
-
+    cursor: pointer;
 }
 
 .website:hover {
@@ -33,10 +33,69 @@
     border-color: 2px solid #7510F7;
 }
 
-@media (min-width: 770px) {
+.flex-child:hover .item-overlay.top {
+    top: 0;
+}
+
+@media (max-width: 690px) {
     .flex-container {
         display: flex;
         flex-wrap: wrap;
-        font-size: 50px;
+        height: 100vh;
+    }
+}
+
+.media {
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.media:hover {
+    cursor: pointer;
+}
+
+.overlay {
+    background-color: #141c3a;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 3;
+    opacity: 0;
+    transition: all ease-in-out 0.5s;
+}
+
+.media:hover .overlay {
+    opacity: 1;
+}
+
+.image-details {
+    color: white;
+    font-size: 20px;
+    z-index: 4;
+    position: absolute;
+    top: 100%;
+    opacity: 0;
+    transition: all ease-in-out 0.5s;
+}
+
+.media:hover .image-details {
+    top: 40%;
+    opacity: 1;
+}
+
+.image-details > a {
+    margin-top: 50em !important;
+}
+
+@media only screen and (max-width: 900px) {
+    .media {
+        width: 100%;
+        height: 100%;
     }
 }

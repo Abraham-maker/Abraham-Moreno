@@ -5,16 +5,30 @@ const Projects = () => {
   return (
     <div className="flex-container">
       <div className="flex-child">
-        <p></p>
-        <a className='website'>Visit Website</a>
+        <div class="media">
+          <div class="overlay"></div>
+          <div class="image-details">
+            <a className='website'>Visit Website</a>
+          </div>
+        </div>
+
       </div>
       <div className="flex-child">
-        <p></p>
-        <a className='website'>Visit Website</a>
+        <div class="media">
+          <div class="overlay"></div>
+          <div class="image-details">
+            <a className='website'>Visit Website</a>
+          </div>
+        </div>
       </div>
+
       <div className="flex-child">
-        <p></p>
-        <a className='website'>Visit Website</a>
+        <div class="media">
+          <div class="overlay"></div>
+          <div class="image-details">
+            <a className='website'>Visit Website</a>
+          </div>
+        </div>
       </div>
     </div>
 
