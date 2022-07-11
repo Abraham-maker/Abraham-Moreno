@@ -5,6 +5,7 @@ const Skill = () => {
     return (
         <>
             <div className="skill__container">
+                <h1 className='title__skill'>Technologies</h1>
                 <div className="skill__background">
                     <div className="skill__item">
                         <i class="fab fa-brands fa-html5"></i>

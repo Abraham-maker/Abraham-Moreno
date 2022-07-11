@@ -1,11 +1,26 @@
+.project__title {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 800;
+    color: black;
+    font-size: 45px;
+    border-bottom: 4px solid black;
+    text-align: center;
+}
+
 .flex-container {
-    width: 85vw;
-    height: 70vh;
-    margin: auto;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #fff;
+    height: 50vh;
+    padding: 3rem 1.5rem;
+}
 
+.flex {
+    margin-top: 5em;
+    display: flex;
+    width: 90%;
 }
 
 .flex-child {

@@ -1,15 +1,29 @@
+.title__skill {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 800;
+    color: white;
+    font-size: 45px;
+    border-bottom: 4px solid white;
+    text-align: center;
+}
+
 .skill__container {
     height: 50vh;
     background-color: #000;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 1.5rem;
+
 }
 
 .skill__background {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 70%;
     background-color: #141c3a;
-    width: 60%;
     margin: auto;
     border-radius: 10px;
     height: 8em;
@@ -22,10 +36,6 @@
     gap: 70px;
     font-size: 60px;
 }
-
-/*
-    transform: translate(0, -10px);
-*/
 
 .fa-html5 {
     color: #e54d26;
