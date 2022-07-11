@@ -6,6 +6,19 @@ import Logo from '../../img/mf-logo-white.svg';
 const Footer = () => {
     return (
         <>
+            <div className="start__footer">
+                <div className="content">
+                    <h1>
+                        Start a project
+                    </h1>
+                    <p>
+                        Interested in working together? We should queue up a chat. I’ll buy the coffee.
+                    </p>
+                    <a href="/" className='buttom__footer'>
+                        <p>Lest's do this</p>
+                    </a>
+                </div>
+            </div>
             <div className='footer__container'>
                 <div className="img__brand">
                     <img src={Logo} alt="" />
