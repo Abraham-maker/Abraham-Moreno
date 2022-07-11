@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/Abraham-Moreno/static/css/main.68c7db20.css",
-    "main.js": "/Abraham-Moreno/static/js/main.07826b53.js",
+    "main.css": "/Abraham-Moreno/static/css/main.0751697e.css",
+    "main.js": "/Abraham-Moreno/static/js/main.ce1d02f6.js",
+    "static/media/two.jpg": "/Abraham-Moreno/static/media/two.5966dc5fc7e32521dbb9.jpg",
+    "static/media/fist.jpg": "/Abraham-Moreno/static/media/fist.88c826693843cb00e0de.jpg",
+    "static/media/three.jpeg": "/Abraham-Moreno/static/media/three.6a563defddcd2f0e0a2a.jpeg",
     "static/media/hero.svg": "/Abraham-Moreno/static/media/hero.5c8568c2804287a7649865cf23368e5f.svg",
     "static/media/avatar.svg": "/Abraham-Moreno/static/media/avatar.7b735e86b418292c156bc9a26437d951.svg",
     "static/media/mf-logo-white.svg": "/Abraham-Moreno/static/media/mf-logo-white.2ec6459bf29178eb9b4b42e5f1fe94ae.svg",
     "static/media/mf-logo.svg": "/Abraham-Moreno/static/media/mf-logo.11c6faa3ac1a50df2ee495092b22a100.svg",
     "index.html": "/Abraham-Moreno/index.html",
-    "main.68c7db20.css.map": "/Abraham-Moreno/static/css/main.68c7db20.css.map",
-    "main.07826b53.js.map": "/Abraham-Moreno/static/js/main.07826b53.js.map"
+    "main.0751697e.css.map": "/Abraham-Moreno/static/css/main.0751697e.css.map",
+    "main.ce1d02f6.js.map": "/Abraham-Moreno/static/js/main.ce1d02f6.js.map"
   },
   "entrypoints": [
-    "static/css/main.68c7db20.css",
-    "static/js/main.07826b53.js"
+    "static/css/main.0751697e.css",
+    "static/js/main.ce1d02f6.js"
   ]
 }
