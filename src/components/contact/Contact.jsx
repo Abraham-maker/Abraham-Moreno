@@ -2,8 +2,15 @@ import React from 'react'
 import './Contact.css'
 import Logo from '../../img/mf-logo.svg';
 import Avatar from '../../img/avatar.svg'
+import emailjs from 'emailjs-com'
 
 const Contact = () => {
+
+    const sendEmail = (e) => {
+        emailjs.sendForm('service_drysart', 'template_znq9v7v', e.target, 'gANMUzEWo03e6iNuI')
+            .then(response => console.log(response)).catch(error => console.log(error));
+    }
+
     return (
         <>
             <nav className='navbar__contact'>
@@ -28,22 +35,22 @@ const Contact = () => {
             </section>
 
             <div class="container">
-                <form>
+                <form onSubmit={sendEmail}>
                     <div className="first__contacts">
                         <div class="col-70">
                             <label htmlFor="name">Name</label>
                             <br />
-                            <input id='name' type="text" name="Name" required />
+                            <input id='name' type="text" name="name_user" required />
                         </div>
                         <div class="col-70">
                             <label htmlFor="email">Email</label>
                             <br />
-                            <input type="email" id="email" name="email" required />
+                            <input type="email" id="email" name="user_email" required />
                         </div>
                     </div>
                     <div class="col-70 message">
                         <label htmlFor="message">Message</label>
-                        <textarea id="message"></textarea>
+                        <textarea id="message" name="user_message"></textarea>
                     </div>
                     <div class="row">
                         <div class="container__submit">

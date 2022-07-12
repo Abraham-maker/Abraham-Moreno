@@ -5,14 +5,12 @@ import About from './components/about/About';
 import Skill from './components/stack/Skill';
 import Projects from './components/projects/Projects';
 import Footer from './components/footer/Footer';
-import Contact from './components/contact/Contact';
 import './App.css'
 
 
 function App() {
   return (
     <>
-      {/* <Contact /> */}
       <NavBar />
       <Header />
       <About />
