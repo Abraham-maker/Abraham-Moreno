@@ -28,7 +28,7 @@ const Contact = () => {
             </section>
 
             <div class="container">
-                <form action="/action_page.php" method="post">
+                <form>
                     <div className="first__contacts">
                         <div class="col-70">
                             <label htmlFor="name">Name</label>
