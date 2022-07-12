@@ -1,0 +1,157 @@
+.navbar__contact {
+    padding: 0.8rem 0;
+    background-color: #fff;
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
+    margin-bottom: 2.5em;
+}
+
+.navbar__contact ul {
+    list-style: none;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.navbar__contact li a {
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    font-weight: 500;
+    display: block;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+.navbar__container__contact {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2em 0 1.5em;
+}
+
+.navbar__container__contact>img {
+    width: 3.3rem;
+    height: auto;
+}
+
+.menus {
+    display: flex;
+    gap: 40px;
+    margin-right: 2em;
+}
+
+.body__contact {
+    display: block;
+    text-align: center;
+}
+
+.container__body {
+    padding: 0 20px;
+    max-width: 1152px;
+    margin: 0 auto;
+    position: relative;
+    width: auto;
+}
+
+.colums {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -0.75rem;
+}
+
+.colum {
+    flex: none;
+    width: 75%;
+    display: block;
+    padding: 0.75rem;
+}
+
+.avatar__contact {
+    width: 84px;
+    margin: -100px auto 50px;
+    z-index: 10;
+}
+
+.avatar__contact>img {
+    height: auto;
+    max-width: 100%;
+}
+
+.title__contact {
+    color: #141c3a;
+    font-family: 'Public Sans', sans-serif;
+    font-weight: 800;
+    line-height: 1.125;
+    font-size: 3rem !important;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5em 0;
+}
+
+.first__contacts {
+    display: flex;
+    gap: 5em;
+}
+
+input[type=text],
+[type=email] {
+    font-family: 'Public Sans', sans-serif;
+    padding: calc(0.75em - 1px);
+    color: #141c3a;
+    font-size: 1.4rem;
+    border: 1px solid rgba(41, 51, 71, 0.65);
+    outline: none;
+    border-radius: 7px;
+}
+
+textarea {
+    width: 100%;
+    font-style: calibri;
+    border: 1px solid rgba(41, 51, 71, 0.65);
+    font-size: 1.4rem;
+    font-family: 'Public Sans', sans-serif;
+    outline: none;
+    height: 150px;
+    resize: vertical;
+    padding: calc(0.75em - 1px);
+    border-radius: 7px;
+}
+
+.message {
+    margin-top: 3em;
+}
+
+.container__submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type=submit] {
+    font-size: 18px;
+    padding: 1em;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 1000px;
+    margin: 20px 0 80px;
+    background-color: transparent;
+    border-color: #7510F7;
+    color: #7510F7;
+}
+
+input[type=submit]:hover {
+    background-color: #7510F7;
+    border-color: #7510F7;
+    color: #fff;
+    -webkit-transition: all .2s ease-in-out;
+}
+
+label {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    color: rgba(41, 51, 71, 0.65);
+}
+
+@media screen and (max-width: 770px) {}
