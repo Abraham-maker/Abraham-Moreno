@@ -70,11 +70,14 @@
     top: 0;
 }
 
-@media (max-width: 690px) {
+@media (max-width: 770px) {
     .flex-container {
-        display: flex;
-        flex-wrap: wrap;
         height: 100vh;
+    }
+
+    .flex {
+        display: flex;
+        flex-direction: column;
     }
 }
 

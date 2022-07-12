@@ -2,7 +2,6 @@ import React from 'react'
 import Logo from '../../img/mf-logo.svg';
 import './Navbar.css'
 
-
 const NavBar = () => {
 
   return (
