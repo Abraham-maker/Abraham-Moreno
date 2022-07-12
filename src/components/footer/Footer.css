@@ -76,7 +76,8 @@
      gap: 25px;
  }
 
- .items {
+ .items a {
+     text-decoration: none;
      color: #fff;
      margin-top: 50px;
      font-size: 25px;
@@ -89,7 +90,7 @@
      justify-content: center;
  }
 
- .items:hover {
+ .items a:hover {
      cursor: pointer;
      background-color: #fff;
      color: #7510f7;

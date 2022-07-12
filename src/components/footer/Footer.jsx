@@ -28,16 +28,16 @@ const Footer = () => {
                 </div>
                 <div className="social-media">
                     <div className="items">
-                        <i class="fab fa-brands fa-twitter"></i>
+                        <a href="https://twitter.com/JholfrenM" target={'_blank'}><i class="fab fa-brands fa-twitter"></i></a>
                     </div>
                     <div className="items">
-                        <i class="fab fa-brands fa-linkedin-in"></i>
+                        <a href="https://www.linkedin.com/in/morenoabraham/" target={'_blank'}><i class="fab fa-brands fa-linkedin-in"></i></a>
                     </div>
                     <div className="items">
-                        <i class="fab fa-brands fa-github"></i>
+                        <a href="https://github.com/Abraham-maker" target={'_blank'}><i class="fab fa-brands fa-github"></i></a>
                     </div>
                     <div className="items">
-                        <i class="fab fa-brands fa-facebook-f"></i>
+                        <a href="https://www.facebook.com/abraham.moreno.7777019" target={'_blank'}><i class="fab fa-brands fa-facebook-f"></i></a>
                     </div>
                 </div>
                 <div className="end-footer">

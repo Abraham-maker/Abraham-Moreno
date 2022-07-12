@@ -1,5 +1,7 @@
 import React from 'react'
 import './About.css'
+import 'animate.css';
+import 'animate.css/animate.css'
 
 const About = () => {
     return (
