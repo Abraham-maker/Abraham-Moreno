@@ -122,6 +122,11 @@ textarea {
     margin-top: 3em;
 }
 
+.fa-angle-left {
+    font-size: 3em;
+    color: #7510F7;
+}
+
 .container__submit {
     display: flex;
     justify-content: center;

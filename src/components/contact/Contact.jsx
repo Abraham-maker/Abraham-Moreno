@@ -1,25 +1,31 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Contact.css'
 import Logo from '../../img/mf-logo.svg';
 import Avatar from '../../img/avatar.svg'
 import emailjs from 'emailjs-com'
 
 const Contact = () => {
-
     const sendEmail = (e) => {
-        emailjs.sendForm('service_drysart', 'template_znq9v7v', e.target, 'gANMUzEWo03e6iNuI')
-            .then(response => console.log(response)).catch(error => console.log(error));
+        e.preventDefault();
+        emailjs.sendForm('service_ikjg5qr', 'template_znq9v7v', e.target, 'gANMUzEWo03e6iNuI')
+            .then((response) => {
+                console.log(response)
+                setTimeout(() => {
+                    document.getElementById('form-contact').reset();
+                }, 2000);
+            }).catch(error => console.log(error));
     }
 
     return (
         <>
             <nav className='navbar__contact'>
                 <div className='navbar__container__contact'>
-                    <img className='navbar__brand' src={Logo} alt="logo" />
                     <ul className="menus">
-                        <li><a href="#home"></a></li>
-                        <li><a href="#about"></a></li>
+                        <li><a onClick={() => { window.history.back(); }} href="#>home">
+                            <i class="fa fa-angle-left"></i>
+                        </a></li>
                     </ul>
+                    <img className='navbar__brand' src={Logo} alt="logo" />
                 </div>
             </nav>
 
@@ -34,26 +40,26 @@ const Contact = () => {
                 </div>
             </section>
 
-            <div class="container">
-                <form onSubmit={sendEmail}>
+            <div className="container">
+                <form onSubmit={sendEmail} id="form-contact">
                     <div className="first__contacts">
-                        <div class="col-70">
+                        <div className="col-70">
                             <label htmlFor="name">Name</label>
                             <br />
                             <input id='name' type="text" name="name_user" required />
                         </div>
-                        <div class="col-70">
+                        <div className="col-70">
                             <label htmlFor="email">Email</label>
                             <br />
                             <input type="email" id="email" name="user_email" required />
                         </div>
                     </div>
-                    <div class="col-70 message">
+                    <div className="col-70 message">
                         <label htmlFor="message">Message</label>
                         <textarea id="message" name="user_message"></textarea>
                     </div>
-                    <div class="row">
-                        <div class="container__submit">
+                    <div className="row">
+                        <div className="container__submit">
                             <input type="submit" id="submit" value="Send Message" />
                         </div>
                     </div>

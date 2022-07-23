@@ -1,6 +1,7 @@
 import React from 'react'
 import Logo from '../../img/mf-logo.svg';
 import './Navbar.css'
+import Contact from '../contact/Contact';
 
 const NavBar = () => {
 
@@ -16,7 +17,7 @@ const NavBar = () => {
             <li><a href="#about">About</a></li>
             <li><a href="#tech">Skills</a></li>
             <li><a href="#careers">Project</a></li>
-            <li><a className='boton__contact' href="#contact">Contact</a></li>
+            <li><a className='boton__contact' href='#'>Contact</a></li>
           </ul>
         </div>
       </nav>

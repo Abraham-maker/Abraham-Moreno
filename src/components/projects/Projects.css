@@ -30,12 +30,12 @@
     margin: 1rem 1rem;
     border-radius: 12px;
 }
-
+/* 
 .image__1 {
-    background-image: url('../../img/fist.jpg');
+    background-image: url('../../img/proyect1.png');
     background-repeat: no-repeat;
     background-size: cover;
-}
+} */
 
 .image__2 {
     background-image: url('../../img/two.jpg');
